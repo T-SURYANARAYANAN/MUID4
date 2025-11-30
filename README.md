@@ -27,15 +27,13 @@ Step 6: Get contacts details and Display details give in MainActivity file.
 Step 7: Save and run the application.
 
 ## PROGRAM:
-```
-/*
+```txt
 Program to print the contact name and phone number using content providers.
 Developed by:SURYANARAYANAN T
 Registeration Number :212224040341
-*/
 ```
 ### AndroidManifist.xml
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
@@ -65,7 +63,7 @@ Registeration Number :212224040341
 </manifest>
 ```
 ### MainActivity.java
-```
+```java
 package com.example.contentprovider;
 
 import android.Manifest;
@@ -138,7 +136,7 @@ public class MainActivity extends AppCompatActivity
 }
 ```
 ### activity_main.xml
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
